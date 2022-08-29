@@ -18,6 +18,11 @@ div.headshot {
     background-color: #d8dee994;
 }
 
+.projects {
+    width: 100%;
+    background-color: #d8dee994;
+}
+
 .navbar ul {
     width: 100%;
     list-style-type: none;
