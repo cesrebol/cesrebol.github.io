@@ -1,34 +1,51 @@
 body {
     background-color: #eceff4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-img {
+div.headshot img {
     border-radius: 100%;
 }
 
-.about-me {
-    width: 800px;
-    background-color: #d8dee994;
+div.headshot {
+    display: flex;
+    justify-content: center;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.about-me {
     width: 100%;
     background-color: #d8dee994;
 }
 
+.navbar ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d8dee994;
+}
+
+
 li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link color on hover */
+/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: #d8dee9;
+}
+
+.skills {
+    width: 100%;
+    background-color: #d8dee994;
+}
+
+.resume {
+    width: 100%;
+    background-color: #d8dee994;
 }
